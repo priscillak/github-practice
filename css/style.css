@@ -1,0 +1,288 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	background: #ffffff;
+}
+
+h1{
+	font: 32px;
+}
+h1:hover{
+	color:#4183c4;
+	
+}
+h2{
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: 300;
+	display: block;
+	margin-bottom: 0;
+
+}
+h3{
+	font-size: 42px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+h4{
+	font-size: 21px;
+}
+p{
+	font-size: 20px;
+	font-weight: 300;
+	color:#777;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+div{
+	display: block;
+}
+nav{
+	padding:10px;
+	float:right;
+	font-size: 13px;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	text-decoration: none;}
+nav a{
+	color: #000;
+}
+a {
+	color:#4183c4;
+	text-decoration: none;
+	cursor: auto;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul.nav li {
+	display: inline;
+	padding:5px;
+	float:right;
+	font-size: 13px;
+	font-family: "Helvetica Neue";
+	text-decoration: none;
+	list-style: none;
+	}
+ul.nav li a{
+		text-decoration: none;
+		color: #333333;
+		font-weight: bold;}
+img{
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.nav-header{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sections{
+	width:100%;
+
+}
+.signinbtn{
+	background: #eee;
+	padding: 7px 12px;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+}
+.signinbtn:hover{
+	background: #D3D3D3;
+}
+.marketing{
+	max-width: 980px;
+	border-radius: 3px;
+
+}
+.btn{
+	color: #FFFFFF;
+	background:#4183c4;
+	padding:12px 20px;
+	border: 1px solid #2a65a0;
+	border-radius: 6px;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 30px 30px;
+}
+
+
+.firstsection{
+	background-color: #333333;
+	background-image: url(../images/octicons-bg.png);
+	width: 100%;
+	height: 296px;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;}
+.textfield {
+	width: 25%;
+	border-radius: 5px;
+	border-color: #FFFFFF;
+	font-size: 13px;
+	font-family: "Helvetica";
+	padding: 10px;
+}	
+.subheading{
+	
+		color: #FFFFFF;
+	}
+.fineprint{
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.fineprint a{
+	text-decoration: none;
+}
+.fineprint:hover a{
+	text-decoration: underline;
+}
+.moreapps {
+	text-align: center;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	padding-top: 40px;
+}
+.moreappsimg li {
+	display: inline;
+	list-style: none;
+	padding-bottom: 40px;
+}
+.apps{
+	float: center;
+}
+
+.windows img{
+	width: 50px;
+	height:50px;
+}
+.eclipse img{
+	width: 102px;
+	height: 50px;
+}
+
+.footer{
+	border: 1px;
+	padding: 40px;
+
+}	
+.footer ul{
+	display:inline;
+}
+
+.center{
+	text-align: center;
+}
+.banner{
+	text-align: center;
+	width: 100%;
+}
+
+.shortdivider{
+	width: 50%;
+	margin-top: 50px;
+
+}
+.onehalf {
+text-align: center;
+	float: left;
+	width: 45%;
+	border: 1px solid transparent;
+
+	padding: 30px;
+	margin: auto;
+	
+}
+.onehalf:first-child{
+	border-right-color: #eee;
+	border-bottom-color: #eee;
+}
+.onehalf:last-child{
+	border-left-color: #eee;
+	border-top-color: #eee;
+}
+.columns{
+	text-align: center;
+	width:auto;
+	height: 341px;
+	}
+
+.columns h4{
+	font-weight: normal;
+	margin: 0px 0px 9px;
+}
+.columns p{
+	font-size: 14px;
+	font-weight: normal;
+
+}
+#computer{
+	height: 18px;
+}
+#messaging{
+	float: left;
+	width: 55%;
+	margin-right: 60px;
+}
+#signup p{
+	
+	
+}
+
+#bottom {
+	width: 1224px;
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: 300;
+	display: block;
+	padding-top: 40px;
+}
+#bottom p{
+	color: #ffffff;
+}
+#logo a{
+	text-decoration: none;
+	color: #333333;
+	}
+#logo a:hover{
+		color:#4183c4;
+	}
+
+#navleft li{
+	color: #777;
+	font-size: 12px;
+	display: inline;
+	list-style: none;
+	text-align: left;
+}
+
+#navright li{
+	font-size: 12px;
+	display: inline;
+	text-align: right;
+	list-style: none;
+	text-align: right;
+	
+}
+
+#signupbtn{
+	color: #ffffff;
+	background: #79d858;
+	border-radius: 3px;
+	padding: 10px 90px 10px 90px;
+	border: 1px;
+	border-color: #4a993e;
+	font-weight: bold;
+}
+#signupbtn:hover{
+	background:#569e3d;
+	text-decoration: none;
+}
